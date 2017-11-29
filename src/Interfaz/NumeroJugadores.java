@@ -15,7 +15,6 @@ public class NumeroJugadores extends javax.swing.JFrame{
     private javax.swing.JButton jugadores2;
     private javax.swing.JButton jugadores3;
     private javax.swing.JButton jugadores4;
-    private javax.swing.JButton jugadores5;
     private javax.swing.JLabel jLabel1;
   
     
@@ -33,7 +32,6 @@ public class NumeroJugadores extends javax.swing.JFrame{
         jugadores2 = new javax.swing.JButton();
         jugadores3 = new javax.swing.JButton();
         jugadores4 = new javax.swing.JButton();
-        jugadores5 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -51,15 +49,14 @@ public class NumeroJugadores extends javax.swing.JFrame{
         jugadores3.setActionCommand("3");
         jugadores4.setActionCommand("4");
         pack();
-// </editor-fold>                        
+                       
         }
-        protected void addActionListeners(ActionListener e)
+        protected void risknumActionListeners(ActionListener evt)
 	{
-		jugadores2.addActionListener(e);
-		jugadores3.addActionListener(e);
-		jugadores4.addActionListener(e);
+		jugadores2.addActionListener(evt);
+		jugadores3.addActionListener(evt);
+		jugadores4.addActionListener(evt);
 	}
-    
-    
+     
 }
 
